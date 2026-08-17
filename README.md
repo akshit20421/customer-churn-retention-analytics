@@ -234,5 +234,4 @@ customer-churn-retention-analytics/
 ├── Customer_Churn_Analysis.ipynb
 ├── Customer_Churn_Prediction_Report.pdf
 ├── README.md
-└── data/
-    └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv
