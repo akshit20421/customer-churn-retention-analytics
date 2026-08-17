@@ -2,7 +2,7 @@
 
 An end-to-end customer churn analytics project using machine learning to identify customers at risk of churn and translate predictions into actionable retention strategies.
 
-## 📌 Overview
+## Overview
 
 This project analyzes customer churn for a telecommunications provider using the IBM Telco Customer Churn dataset.
 
@@ -23,7 +23,7 @@ The core objective is:
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 
 Customer churn can negatively impact recurring revenue and customer lifetime value.
 
@@ -53,7 +53,7 @@ The dataset contains customer demographics, tenure, contract information, subscr
 
 ---
 
-## 🔍 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 Key churn patterns identified:
 
@@ -104,7 +104,7 @@ It was selected as the working model because it achieved the strongest overall c
 
 ---
 
-## 🎯 Business-Oriented Threshold Optimization
+##  Business-Oriented Threshold Optimization
 
 The default classification threshold of 0.50 was evaluated against alternative thresholds because a retention program may prioritize identifying more potential churners.
 
@@ -132,7 +132,7 @@ The trade-off is lower precision, meaning more customers may be flagged for rete
 
 ---
 
-## 🔎 Model Explainability
+##  Model Explainability
 
 Logistic Regression coefficients were used to identify features associated with higher or lower predicted churn.
 
@@ -162,7 +162,7 @@ These coefficients represent model associations rather than causal effects.
 
 ---
 
-## 🚦 Customer Risk Segmentation
+##  Customer Risk Segmentation
 
 Predicted churn probabilities were converted into three risk tiers.
 
@@ -176,7 +176,7 @@ This segmentation provides a practical way to prioritize retention resources.
 
 ---
 
-## 💡 Retention Strategy
+##  Retention Strategy
 
 Based on the analysis, the following actions are recommended:
 
@@ -226,7 +226,7 @@ Use predicted churn probability to prioritize customers for retention outreach.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 customer-churn-retention-analytics/
